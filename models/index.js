@@ -70,7 +70,6 @@ const User = sequelize.define("User", {
   },
 });
 
-// Add a test connection function
 async function testConnection() {
   try {
     await sequelize.authenticate();
